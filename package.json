@@ -2,6 +2,16 @@
   "name": "root",
   "version": "1.0.0",
   "scripts": {
-    "heroku-postbuild": "ls -al && npm install && npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "swiper": "^8.0.7"
   }
 }
