@@ -1,0 +1,1 @@
+web: cd commercialstorefront && npm start
