@@ -2,6 +2,6 @@
   "name": "root",
   "version": "1.0.0",
   "scripts": {
-    "heroku-postbuild": "ls -al && npm install && npm run build"
+    "heroku-postbuild": "cd commercialstorefront && npm install && npm run build"
   }
 }
