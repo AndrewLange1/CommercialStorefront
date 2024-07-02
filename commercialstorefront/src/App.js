@@ -1,20 +1,19 @@
 import './index.css';
-import logo from './images/logo.png';
+import logo from './images/logo copy.png';
 import React, { useEffect, useState } from 'react';
-import image1 from './images/image1 copy.JPG';
-import image2 from './images/image2 copy.JPG';
-import image3 from './images/image3 copy.JPG';
-import image4 from './images/image4 copy.JPG';
-import mng from './images/MNG copy.jpg';
-import mha from './images/MHA copy.jpg';
-import msca from './images/MSCA copy.jpg';
-import nga from './images/NGA copy.jpg';
+import image1 from './images/image1 copy 2.JPG';
+import image2 from './images/image2 copy 2.JPG';
+import image3 from './images/image3 copy 2.JPG';
+import image4 from './images/image4 copy 2.JPG';
+import mng from './images/MNG copy 2.jpg';
+import mha from './images/MHA copy 2.jpg';
+import msca from './images/MSCA copy 2.jpg';
+import nga from './images/NGA copy 2.jpg';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css';
 import SwiperCore from 'swiper';
 SwiperCore.use([Autoplay]);
 
@@ -151,7 +150,7 @@ function App() {
       <div className={`flex flex-row w-full content-below ${isMenuOpen ? 'menu-open' : ''}`}>
         <div className="flex flex-row justify-center h-[687px] w-[42vw] custom-gradient">
           <div className="flex flex-col text-center w-[40vw]">
-            <p className="text-white text-[21px] mt-[70px] headquarters">Trustworthy Glass is your MN Glass Headquarters</p>
+            <p className="text-white text-[19px] mt-[70px] headquarters">Trustworthy Glass is your MN Commercial Storefront Headquarters</p>
             <div className="w-full justify-center mx-auto">
               <p className="mt-[130px] text-white headquarters">Trustworthy Glass is family owned and operated since</p>
               <p className="mt-[25px] text-white headquarters">2008. We are proud to be a part of the Shoreview</p>
